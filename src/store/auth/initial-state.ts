@@ -18,7 +18,7 @@ export const AuthIntialState: IAuthState = {
     [REGISTER]: OperationInitialState,
     [FETCHING_AUTHENTICATED_USER]: LazyOperationInitialState,
     [PASSWORD_RESET]: OperationInitialState,
-    [FINISH_PASSWORD_RESET]: LazyOperationInitialState,
+    [FINISH_PASSWORD_RESET]: OperationInitialState,
     [UPDATE_PROFILE]: OperationInitialState,
     user: null,
 };
